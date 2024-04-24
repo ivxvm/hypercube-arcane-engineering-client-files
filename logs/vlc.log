@@ -1,0 +1,45 @@
+﻿-- logger module started --
+main debug: VLC media player - 4.0.0-dev Otto Chriek
+main debug: Copyright © 1996-2022 the VideoLAN team
+main debug: revision 4.0.0-dev-19298-gaeb120a889
+main debug: configured with /builds/videolan/vlc/extras/package/win32/../../../configure  '--enable-update-check' '--enable-lua' '--enable-flac' '--enable-theora' '--enable-avcodec' '--enable-merge-ffmpeg' '--enable-dca' '--enable-libass' '--enable-schroedinger' '--enable-live555' '--enable-shout' '--enable-goom' '--enable-sse' '--enable-libcddb' '--enable-zvbi' '--disable-telx' '--enable-nls' '--host=x86_64-w64-mingw32' '--with-contrib=../contrib/x86_64-w64-mingw32' '--enable-debug' '--enable-qt' '--enable-skins2' '--enable-dvdread' '--enable-caca' 'host_alias=x86_64-w64-mingw32' 'CFLAGS= -D__MSVCRT_VERSION__=0x700 -D_WIN32_WINNT=0x0601 -DWINVER=0x0601 ' 'CPPFLAGS= -D__MSVCRT_VERSION__=0x700 -D_WIN32_WINNT=0x0601 -DWINVER=0x0601' 'CXXFLAGS= -D__MSVCRT_VERSION__=0x700 -D_WIN32_WINNT=0x0601 -DWINVER=0x0601 ' 'PKG_CONFIG=pkg-config' 'PKG_CONFIG_LIBDIR=/usr/x86_64-w64-mingw32/lib/pkgconfig:/usr/lib/x86_64-w64-mingw32/pkgconfig'
+main debug: searching plug-in modules
+main debug: loading plugins cache file C:\Games\UltimMC\instances\Hypercube-ArcaneEngineering\.minecraft/plugins\plugins.dat
+main warning: cannot read C:\Games\UltimMC\instances\Hypercube-ArcaneEngineering\.minecraft/plugins\plugins.dat: No such file or directory
+main debug: recursively browsing `C:\Games\UltimMC\instances\Hypercube-ArcaneEngineering\.minecraft/plugins'
+main debug: loading plugins cache file C:\Games\UltimMC\instances\Hypercube-ArcaneEngineering\.minecraft\plugins\plugins.dat
+main warning: cannot read C:\Games\UltimMC\instances\Hypercube-ArcaneEngineering\.minecraft\plugins\plugins.dat: No such file or directory
+main debug: recursively browsing `C:\Games\UltimMC\instances\Hypercube-ArcaneEngineering\.minecraft\plugins'
+main debug: plug-ins loaded: 67 modules
+main debug: looking for logger module matching "any": 4 candidates
+file debug: opening logfile `logs/vlc.log'
+main debug: using logger module "file"
+main debug: looking for tracer module matching "none": 0 candidates
+main debug: no tracer modules matched with name none
+main debug: translation test: code is "C"
+main debug: looking for keystore module matching "memory": 0 candidates
+main debug: no keystore modules matched with name memory
+main warning: memory keystore init failed
+main debug: CPU has capabilities SSE2 SSE3 SSSE3 SSE4.1 FPU 
+main debug: creating audio output
+main debug: looking for audio output module matching "any": 2 candidates
+directsound debug: found 7 devices
+main debug: using audio output module "directsound"
+main debug: keeping audio output
+main debug: creating audio output
+main debug: looking for audio output module matching "any": 2 candidates
+directsound debug: found 7 devices
+main debug: using audio output module "directsound"
+main debug: keeping audio output
+main debug: removing module "directsound"
+main debug: creating audio output
+main debug: looking for audio output module matching "any": 2 candidates
+directsound debug: found 7 devices
+main debug: using audio output module "directsound"
+main debug: keeping audio output
+main debug: removing module "directsound"
+main debug: removing module "directsound"
+main debug: exiting
+main debug: no exit handler
+main debug: removing all interfaces
+-- logger module stopped --

@@ -1,0 +1,405 @@
+Logging started at 2024-03-10T17:29:34.680666200Z
+[authlib-injector] [INFO] Version: 1.2.5
+[authlib-injector] [INFO] Authentication server: http://localhost:54567
+[authlib-injector] [WARNING] You are using HTTP protocol, which is INSECURE! Please switch to HTTPS if possible.
+[authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
+[authlib-injector] [INFO] Httpd is running on port 54625
+[authlib-injector] [INFO] Transformed [net.minecraft.client.player.AbstractClientPlayer] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilEnvironment] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Texture Whitelist Transformer]
+[authlib-injector] [INFO] Transformed [com.natamus.collective_common_forge.data.GlobalVariables] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [net.minecraft.server.network.ServerLoginPacketListenerImpl] with [Username Character Check Transformer]
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/api.mojang.com/profiles/minecraft]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.performQuery(QueryUUIDsFilter.java:84)
+	at moe.yushi.authlibinjector.httpd.QueryUUIDsFilter.handle(QueryUUIDsFilter.java:65)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/api/profiles/minecraft
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/sessionserver.mojang.com/session/minecraft/profile/742b00aab24a33b98551d8a17b48b3fe]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/sessionserver/session/minecraft/profile/742b00aab24a33b98551d8a17b48b3fe?unsigned=false
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:92)
+	at moe.yushi.authlibinjector.httpd.QueryProfileFilter.handle(QueryProfileFilter.java:82)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/sessionserver/session/minecraft/profile/742b00aab24a33b98551d8a17b48b3fe?unsigned=false
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:49)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:90)
+	... 5 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/sessionserver.mojang.com/session/minecraft/profile/11d3f2c1ecb63a9189cca6c9729a702d]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/sessionserver/session/minecraft/profile/11d3f2c1ecb63a9189cca6c9729a702d?unsigned=false
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:92)
+	at moe.yushi.authlibinjector.httpd.QueryProfileFilter.handle(QueryProfileFilter.java:82)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/sessionserver/session/minecraft/profile/11d3f2c1ecb63a9189cca6c9729a702d?unsigned=false
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:49)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:90)
+	... 5 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/sessionserver.mojang.com/session/minecraft/profile/a65e78452745347488cadab1568e9ead]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/sessionserver/session/minecraft/profile/a65e78452745347488cadab1568e9ead?unsigned=false
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:92)
+	at moe.yushi.authlibinjector.httpd.QueryProfileFilter.handle(QueryProfileFilter.java:82)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/sessionserver/session/minecraft/profile/a65e78452745347488cadab1568e9ead?unsigned=false
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:49)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:90)
+	... 5 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/sessionserver.mojang.com/session/minecraft/profile/6553d9881a0f39be806d8744c34c04bd]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/sessionserver/session/minecraft/profile/6553d9881a0f39be806d8744c34c04bd?unsigned=false
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:92)
+	at moe.yushi.authlibinjector.httpd.QueryProfileFilter.handle(QueryProfileFilter.java:82)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/sessionserver/session/minecraft/profile/6553d9881a0f39be806d8744c34c04bd?unsigned=false
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:49)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:90)
+	... 5 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/sessionserver.mojang.com/session/minecraft/profile/2a6bd35790493b8980d8ce5e19df9044]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/sessionserver/session/minecraft/profile/2a6bd35790493b8980d8ce5e19df9044?unsigned=false
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:92)
+	at moe.yushi.authlibinjector.httpd.QueryProfileFilter.handle(QueryProfileFilter.java:82)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/sessionserver/session/minecraft/profile/2a6bd35790493b8980d8ce5e19df9044?unsigned=false
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:49)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:90)
+	... 5 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/sessionserver.mojang.com/session/minecraft/profile/b71e93467af53be695694ec1728047d1]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/sessionserver/session/minecraft/profile/b71e93467af53be695694ec1728047d1?unsigned=false
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:92)
+	at moe.yushi.authlibinjector.httpd.QueryProfileFilter.handle(QueryProfileFilter.java:82)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/sessionserver/session/minecraft/profile/b71e93467af53be695694ec1728047d1?unsigned=false
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:49)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:90)
+	... 5 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/https/sessionserver.mojang.com/session/minecraft/profile/04a2af139819301d8eb1dbcbc3bf3a21]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54567/sessionserver/session/minecraft/profile/04a2af139819301d8eb1dbcbc3bf3a21?unsigned=false
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:92)
+	at moe.yushi.authlibinjector.httpd.QueryProfileFilter.handle(QueryProfileFilter.java:82)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: http://localhost:54567/sessionserver/session/minecraft/profile/04a2af139819301d8eb1dbcbc3bf3a21?unsigned=false
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1993)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:49)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:90)
+	... 5 more
+

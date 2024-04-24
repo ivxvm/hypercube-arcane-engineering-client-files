@@ -1,0 +1,16 @@
+#290 byg:bayou
+#556 minecraft:beach
+#1FE byg:coconino_meadow
+#3D6 minecraft:cold_ocean
+#735 biomesoplenty:coniferous_forest
+#6D4 biomesoplenty:field
+#79C byg:maple_taiga
+#4F1 minecraft:ocean
+#3A3 terralith:orchid_swamp
+#5FF minecraft:river
+#359 terralith:stony_spires
+#169 minecraft:taiga
+#02B biomesoplenty:wetland
+#152 minecraft:windswept_forest
+#4C3 minecraft:windswept_hills
+#579 minecraft:windswept_savanna

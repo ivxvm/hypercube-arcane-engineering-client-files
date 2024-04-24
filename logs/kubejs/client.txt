@@ -1,0 +1,13 @@
+[17:30:09] [INFO ] Loaded script client_scripts:arsPonder.js in 0.002 s
+[17:30:09] [INFO ] Loaded script client_scripts:gameStages.js in 0.005 s
+[17:30:09] [INFO ] Loaded script client_scripts:itemNames.js in 0.007 s
+[17:30:09] [INFO ] Loaded script client_scripts:jeiHideItems.js in 0.002 s
+[17:30:09] [INFO ] Loaded script client_scripts:jeiItemInfo.js in 0.001 s
+[17:30:09] [INFO ] Loaded script client_scripts:jeiReadd.js in 0.0 s
+[17:30:09] [INFO ] Loaded script client_scripts:pneumaticPonder.js in 0.005 s
+[17:30:09] [INFO ] Loaded script client_scripts:ponder.js in 0.005 s
+[17:30:09] [INFO ] Loaded script client_scripts:thermalPonder.js in 0.001 s
+[17:30:09] [INFO ] Loaded script client_scripts:tinkersPonder.js in 0.004 s
+[17:30:09] [INFO ] Loaded script client_scripts:tooltips.js in 0.003 s
+[17:30:09] [INFO ] Loaded 11/11 KubeJS client scripts in 0.095 s
+[17:30:21] [ERR  ] Error occurred while handling event 'ponder.registry': Wrapped java.lang.IllegalArgumentException: Provided items must not be empty! (client_scripts:thermalPonder.js#10)
